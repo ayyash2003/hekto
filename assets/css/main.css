@@ -36,6 +36,17 @@ body {
 
 }
 
+.button {
+    border-radius: 3px;
+    background-color: #FB2E86;
+    width: 135px;
+    height: 43.32px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    color: white;
+}
+
 .header-items {
     width: 800px;
 }
@@ -135,6 +146,39 @@ body {
 .body{
     height: 300px;
 }
+
+/* start body */
+
+.shop{
+    height: 462px;
+    background-image: url(../img/backgroundShop.png);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 100% 462px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.shop h2{
+    width: 450px;
+    text-align: center;
+    font-size: 25px;
+    color: #151875;
+
+     font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+.solve-position{
+    height: 160px;
+}
+/* end body  */
+
 /* Start footer  */
 
 .footer {
@@ -190,16 +234,7 @@ body {
     font-size: 14px;
 }
 
-.footer .left-side button {
-    border-radius: 3px;
-    background-color: #FB2E86;
-    width: 135px;
-    height: 43.32px;
-    align-items: center;
-    justify-content: center;
-    border: 0px;
-    color: white;
-}
+
 
 .footer .left-side .email-address form {
     display: flex;
