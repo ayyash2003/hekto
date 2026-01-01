@@ -147,6 +147,219 @@ body {
     height: 300px;
 }
 
+/* start Featured Products */
+.featured-products{
+
+}
+.featured-products .container{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+        flex-wrap: wrap;
+
+}
+.products{
+display: flex;
+gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 90px) / 4);
+    filter: drop-shadow(0px 0px 5px rgba(73, 2, 8, 0.336));
+    flex-wrap: wrap;
+
+}
+@media  screen and (min-width: 0px) and (max-width:480px) {
+    
+    .product-item{
+        width: 100%;
+    }
+}
+@media  screen and (min-width: 481px) and (max-width:750px) {
+    
+    .product-item{
+        width: calc(50% - 30px);
+    }
+}
+
+.products .row{
+    gap: 30px;
+}
+
+.products .product-image{
+background-color: #F6F7FB;
+width: 270px;
+height: 236px;
+
+}
+.product-image .icons{
+    display: flex;
+    align-self:flex-start;
+    justify-content: start;
+    gap: 16px;
+}
+.product-image .icons #icon1{
+    
+}
+.product-image .icons #icon2{
+    width: 17px;
+    height: 17px;
+    margin: 10px 0 0 0;
+}
+.product-image .icons #icon3{
+    width: 15px;
+    height: 15px;
+        margin: 10px 0 0 0;
+
+}
+.product-image button{
+    background-color: #08D15F;
+    color: white;
+    width: 94px;
+    height: 29px;
+    align-items: center;
+    justify-content: center;
+    border: 0 solid;
+}
+.products #product-image1{
+background-image: url(./../img/productImage1.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.products #product-image2{
+background-image: url(./../img/chair2.png);
+background-repeat: no-repeat;
+background-position: center center;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 0 0 9px 0;
+}
+
+.products #product-image3{
+background-image: url(./../img/chair3.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.products #product-image4{
+background-image: url(./../img/chair4.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+.products .product-description{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0 0;
+        flex-wrap: wrap;
+
+}
+.products #product-description2{
+background-color: #2F1AC4;
+}
+.products #product-description2 h3{
+color: white;
+}
+#product-item1-h3{
+color: pink;
+font-weight: bold;
+font-family: "Lato", sans-serif;
+font-size: 18px;
+}
+
+.product-item .product-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+gap: 5px;
+
+}
+.product-btn button{
+    width: 14px;
+    height: 4px;
+    border: 0px solid;
+}
+.product-btn #btn11{
+    background-color: #05E6B7;
+}
+.product-btn #btn12{
+    background-color: #F701A8;
+}
+.product-btn #btn13{
+    background-color: #00009D;
+}
+
+.product-btn #btn21{
+    background-color: #05E6B7;
+}
+.product-btn #btn22{
+    background-color: #F701A8;
+}
+.product-btn #btn23{
+    background-color: #FFEAC1;
+}
+.product-btn #btn31{
+    background-color: #05E6B7;
+}
+.product-btn #btn32{
+    background-color: #F701A8;
+}
+.product-btn #btn33{
+    background-color: #00009D;
+}
+.product-btn #btn41{
+    background-color: #05E6B7;
+}
+.product-btn #btn42{
+    background-color: #F701A8;
+}
+.product-btn #btn43{
+    background-color: #00009D;
+}
+.product-description .product-price{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+.product-description #product-price1{
+    color: #151875;
+}
+.product-description #product-price2{
+    color: white;
+}
+
+.product-description #product-price2 #code2{
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.product-description .product-price{
+    color: #151875;
+}
+
+.product-description h3{
+    color: pink;
+}
+/* end Featured Products*/
+
+
+
 /* start body */
 
 .shop{
