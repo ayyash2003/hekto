@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.button {
+    border-radius: 3px;
+    background-color: #FB2E86;
+    width: 135px;
+    height: 43.32px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.btn-red{
+    background-color: red;
+}
+.btn-green{
+    background-color: green;
+}
+.btn-teal{
+    background-color: teal;
+}
+.btn-blue{
+    background-color: blue;
+}
+
+.card{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0)  ;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-25{
+    gap: 25px;
+}
+.gap-30{
+    gap: 30px;
+}
+
+.pr-5{
+    padding-right: 5px;
+}
+.pl-5{
+    padding-left: 5px;
+}
+.pt-5{
+    padding-top: 5px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+
+.px-5{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.py-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.py-25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.d-flex{
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+ul{
+    list-style-type: none;
+}
