@@ -157,15 +157,7 @@ body {
 }
 
 
-@media screen and (min-width: 0px) and (max-width:700px) {
 
-    .promotional-img{
-    width: 100%;
-}
-.promotional-description{
-    width: 100%;
-}
-}
 
 .promotional-description form{
     align-items: start;
@@ -192,6 +184,34 @@ body {
     font-weight: bold;
     font-family: "Lato", sans-serif;
     font-size: 16px;
+}
+@media screen and (min-width: 0px) and (max-width:700px) {
+
+    .promotional-img{
+    width: 100%;
+}
+.promotional-description{
+    width: 100%;
+}
+
+.promotional-description h3{
+    font-size: 16px;
+    
+    letter-spacing: 1.5px;
+    line-height: 100%;
+}
+}
+
+@media screen and (min-width: 701px) and (max-width:1100px) {
+
+    
+
+.promotional-description h3{
+    font-size: 22px;
+    
+    letter-spacing: 1.5px;
+    line-height: 100%;
+}
 }
 /* end Promotional */
 
