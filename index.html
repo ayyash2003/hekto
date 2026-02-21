@@ -17,57 +17,57 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
         <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="header-logo">
-                    <div>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
                         <img src="./assets/img/Hekto.svg" alt="">
-                    </div>
-                </div>
-                <div class="header-items">
-
-
-                    <ul>
-                        <li>
-                            <pre id="home">Home</pre>
-                        </li>
-                        <li>
-                            <pre>Pages</pre>
-                        </li>
-                        <li>
-                            <pre>Products</pre>
-                        </li>
-                        <li>
-                            <pre>Blog</pre>
-                        </li>
-                        <li>
-                            <pre>Shop</pre>
-                        </li>
-                        <li>
-                            <pre>Contact</pre>
-                        </li>
-                    </ul>
-
-                </div>
-                <div class="header-search">
-
-                    <form>
-                        <input type="text">
-                        <button><img src="./assets/img/Vector.svg" alt="image not found"></button>
-                    </form>
-
-                </div>
-                <i class="fa-regular fa-list"></i>
-            </div>
-        </div>
-    </header>
+                    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-xl-5 ps-xl-5" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-items" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-items" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-items" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-items" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-items" href="#">Contact</a>
+        </li>
+        
+       
+      </ul>
+      <div class="search-btn">
+      <form class="d-flex">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><img src="./assets/img/Vector.svg" alt="image not found"></button>
+      </form>
+      </div>
+    </div>
+  </div>
+</nav>
+    
         <!-- start promotional -->
 
     <section class="promotional py-30">
@@ -658,6 +658,8 @@
 
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
